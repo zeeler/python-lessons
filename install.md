@@ -131,13 +131,18 @@ pip install virtualenv
 ```bash
 # macOS/Linux
 virtualenv venv  # 创建名为"venv"的虚拟环境
+# 查看系统安装的Python的路径
+which python3.12
+which python3.13
 # 或者指定Python版本
-virtualenv -p python3 venv
+virtualenv -p [你的python路径] venv
 
 # Windows
 virtualenv venv
+# 查看系统安装的Python
+where python
 # 或者指定Python版本
-virtualenv -p python venv
+virtualenv -p [你的python路径] venv
 ```
 
 **激活虚拟环境**
