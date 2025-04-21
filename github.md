@@ -62,6 +62,7 @@ ll ~/.ssh/* #查看文件列表，文件至少要有三个：id_rsa id_rsa_pub c
    - 找到绿色按键Code，点击下拉选项卡Local，选择SSH，并copy地址备用（例如：git@github.com:zeeler/pytest1.git）
    - 在Trae的File菜单中选择New Window，会打开新窗口，在窗口中选择`Clone Git Repository`
    - 粘贴在github中复制的项目SSH地址（例如：git@github.com:zeeler/pytest1.git）并回车
+   - 第一次连接github时，可能会要求访问验证，要输入8位验证码，在Trae中就有，仔细看下窗口边角小字，类似“AB23-D243”字样
    - 弹窗窗口中，手工选择你想把项目目录放在什么地方（比如桌面），然后点击`Select as Repository Destination`
    - 在弹窗（Would you like to open the repository）选择Open或者在新window open都可
    - 在当前窗口Explorer下就可以看到代码文件
