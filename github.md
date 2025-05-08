@@ -26,8 +26,10 @@ ssh-keygen -t rsa
 后面提示可以不看，一路回车，最后生成的密钥会放在~/.ssh/目录下
 
 6. **配置SSH连接**
-   打开macOS的终端，输入以下命令：
-   ```bash
+
+打开macOS的终端，输入以下命令：
+
+```bash
 cat << EOF > ~/.ssh/config
 Host github.com
   HostName github.com
@@ -35,7 +37,7 @@ Host github.com
   User git
   identityFile ~/.ssh/id_rsa
 EOF
-   ```
+```
   修改~/.ssh/目录下所有文件的权限：
 
 ```bash
@@ -44,9 +46,9 @@ ll ~/.ssh/* #查看文件列表，文件至少要有三个：id_rsa id_rsa_pub c
 ```
 
 7. **测试github连接**
-   ```bash
+```bash
    ssh -T git@github.com
-   ```
+```
    出现以下内容说明连接成功：You've successfully authenticated, but GitHub does not provide shell access.
 
 ## 配置Git和GitHub
