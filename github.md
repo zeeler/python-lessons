@@ -37,6 +37,7 @@ Host github.com
 EOF
    ```
   修改~/.ssh/目录下所有文件的权限：
+
 ```bash
 chmod 600 ~/.ssh/*
 ll ~/.ssh/* #查看文件列表，文件至少要有三个：id_rsa id_rsa_pub config，权限均为-rw-------
