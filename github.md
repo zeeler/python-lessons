@@ -61,6 +61,7 @@ ll ~/.ssh/* #查看文件列表，文件至少要有三个：id_rsa id_rsa_pub c
    ```
 
 2. **在Trae中登录GitHub**
+   - 官方参考：https://docs.trae.ai/ide/manage-projects?_lang=en
    - 打开github你的个人仓库（头像-->Your Repositories-->选择已经有的项目）
    - 找到绿色按键Code，点击下拉选项卡Local，选择SSH，并copy地址备用（例如：git@github.com:zeeler/pytest1.git）
    - 在Trae的File菜单中选择New Window，会打开新窗口，在窗口中选择`Clone Git Repository`
